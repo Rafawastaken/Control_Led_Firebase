@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
    <head>
       <meta charset="UTF-8">
@@ -13,7 +13,7 @@
          <div class="row">
             <div class="col">
                <div class="display-3 mt-3">
-                  Control Led
+                  Controlar Led
                </div>
             </div>
          </div>
@@ -21,19 +21,23 @@
          <div class="row">
             <div class="col"></div>
             <div class="col">
-                <div class="mt-2">
+                <div class="mt-2 text-center">
                     <h4>Controlar LED através de Internet</h4>
                     <div class="form-control-led text-center">
-                     <form>
+                       <p class="text-secondary" id="text-status">O led está desligado</p>
                         <button class="btn form-control btn-lg mt-2 btn-outline-success" id="btn-ligar">Ligar</button>
-                        <button class="btn form-control btn-lg mt-2 btn-outline-danger" id="btn-desligar">Desligar</button>
-                     </form>
+                        <button class="btn form-control btn-lg mt-2 btn-outline-danger disabled" id="btn-desligar">Desligar</button>
                   </div>
                </div>
             </div>
             <div class="col"></div>
          </div>
+         <div class="row">
+            <div class="col text-muted text-center">
+               Made by: @rafawastaken
+            </div>
+         </div>
       </div>
-      <script src="app.js"></script>
+      <script src="app.js" type="module"></script>
    </body>
 </html>
