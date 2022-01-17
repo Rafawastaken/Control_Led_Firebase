@@ -17,11 +17,11 @@ Then we have a python script in a infinite loop to check for the state of LED, a
 6. Change the port to the port of your device in server-side-control/run.py
 
 
-### How it can be improved
+## How it can be improved
 
 Even though functional it's not the most efficent project, it has some features that can be upgraded, to name a few:
 1. Instead of always comunicating with the controller at every check, only comunicate when the firebase LED status change.
 2. Create a filed in the database with the feedback - These field would be updated after the arduino INPUT actually updates. The button would only toggle after the Feedback matches the current status.
 
 
-### Project by: @rafawastaken
+Project by: @rafawastaken
