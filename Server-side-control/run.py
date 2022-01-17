@@ -5,14 +5,7 @@ from time import sleep
 
 def get_status():
     firebase_config = {
-        "apiKey": "AIzaSyBIIYAufROoblUDgPahtLoWfvDNlrLAWw0",
-        "authDomain": "led-control-fc3ce.firebaseapp.com",
-        "databaseURL": "https://led-control-fc3ce-default-rtdb.europe-west1.firebasedatabase.app",
-        "projectId": "led-control-fc3ce",
-        "storageBucket": "led-control-fc3ce.appspot.com",
-        "messagingSenderId": "167274057880",
-        "appId": "1:167274057880:web:88c680ffd66c4b2dfac0ed",
-        "measurementId": "G-0JTZ7G1T52"
+        # Replace with firebase api
     }
 
     firebase = pyrebase.initialize_app(firebase_config)
