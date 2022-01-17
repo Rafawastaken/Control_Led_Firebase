@@ -29,7 +29,7 @@ def comArduino(arduino, status):
 
 
 def main():
-    arduino = serial.Serial(port="COM3", baudrate=115200, timeout=.1)
+    arduino = serial.Serial(port="replace_com_port", baudrate=115200, timeout=.1)
     print("Running...")
     while True:
         status = get_status()
